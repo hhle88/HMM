@@ -1,5 +1,5 @@
 clear;
-list_filename='testing_list.mat';
+list_filename='testingfile_list.mat';
 MODEL_NO=11;
 dir1='mfcc_e_d_a/isolated_digits_ti_test_endpt';
 dir2={'MAN','WOMAN'};
