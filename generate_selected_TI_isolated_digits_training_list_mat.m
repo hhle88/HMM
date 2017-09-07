@@ -1,5 +1,5 @@
 
-list_filename='training_list.mat';
+list_filename='trainingfile_list.mat';
 MODEL_NO=11;
 dir1='mfcc_e_d_a/isolated_digits_ti_train_endpt';
 dir2={'MAN','WOMAN'};
