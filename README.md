@@ -9,8 +9,10 @@ You may use this work free.
 !!! Update: 2017-09-07
 
 You may now download data files on the website: http://www.ece.ucsb.edu/Faculty/Rabiner/ece259/speech%20recognition%20course.html
-Please select the data set: "isolated TI digits training files, 8 kHz sampled, endpointed: (isolated_digits_ti_train_endpt.zip)" to download it, or you may download directly the .zip file of training database only from this link: http://www.ece.ucsb.edu/Faculty/Rabiner/ece259/speech%20recognition%20course/databases/isolated_digits_ti_train_endpt.zip
-then decompress it in the same folder of your Matlab programes.
-We have just added some feature extracting functions that would help you to convert '.wav' files to '.mfc' files (feature files)
+Please select the data set: "isolated TI digits training files, 8 kHz sampled, endpointed: (isolated_digits_ti_train_endpt.zip)" to download it, or you may download directly the .zip file of training database only from this link: http://www.ece.ucsb.edu/Faculty/Rabiner/ece259/speech%20recognition%20course/databases/isolated_digits_ti_train_endpt.zip.
+
+Remember decompressing database set in the same folder of your Matlab programes.
+
+Furthermore, we have just added some feature extracting functions that would help you to convert '.wav' files to '.mfc' files (feature files)
 
 Now you may run this project with only one click!
