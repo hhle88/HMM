@@ -13,11 +13,11 @@ for d2=1:length(dir2)
     for d3=1:length(dir3{d2})
         for w=1:length(wordids)
             for pass='A':'B'
-                list{k,1}=w;
-                list{k,2}=sprintf('%s/%s/%s/%c%c_endpt.mfc', dir1,dir2{d2},dir3{d2}{d3},wordids{w},pass);
+                trainingfile{k,1}=w;
+                trainingfile{k,2}=sprintf('%s/%s/%s/%c%c_endpt.mfc', dir1,dir2{d2},dir3{d2}{d3},wordids{w},pass);
                 k=k+1;
             end
         end
     end
 end
-save(list_filename,'list');
+save(list_filename,'trainingfile');
